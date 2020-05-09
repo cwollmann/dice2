@@ -8,7 +8,7 @@ miro.onReady(() => {
         title: 'widget counter',
         svgIcon: icon24,
         onClick: () => {
-          miro.board.ui.openLeftSidebar('./sidebar.html')
+          miro.board.ui.openLeftSidebar('https://cwollmann.github.io/dice2/sidebar.html')
         }
       },
     }
